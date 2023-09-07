@@ -101,14 +101,10 @@
 		F5438AD02AAA8271004CD6C2 /* MVC-N */ = {
 			isa = PBXGroup;
 			children = (
-				F5438AD12AAA8271004CD6C2 /* AppDelegate.swift */,
-				F5438AD32AAA8271004CD6C2 /* SceneDelegate.swift */,
-				F5438AD52AAA8271004CD6C2 /* ViewController.swift */,
-				F5438AD72AAA8271004CD6C2 /* Main.storyboard */,
-				F5438ADD2AAA8272004CD6C2 /* Assets.xcassets */,
-				F5438ADF2AAA8272004CD6C2 /* LaunchScreen.storyboard */,
 				F5438AE22AAA8272004CD6C2 /* Info.plist */,
-				F5438ADA2AAA8271004CD6C2 /* MVC_N.xcdatamodeld */,
+				F5438B082AAA837B004CD6C2 /* Application */,
+				F5438B092AAA83B2004CD6C2 /* Comments */,
+				F5438B0D2AAA840B004CD6C2 /* SupportingFiles */,
 			);
 			path = "MVC-N";
 			sourceTree = "<group>";
@@ -128,6 +124,82 @@
 				F5438AF72AAA8272004CD6C2 /* MVC_NUITestsLaunchTests.swift */,
 			);
 			path = "MVC-NUITests";
+			sourceTree = "<group>";
+		};
+		F5438B042AAA8335004CD6C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5438B062AAA8356004CD6C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5438AD72AAA8271004CD6C2 /* Main.storyboard */,
+				F5438ADF2AAA8272004CD6C2 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5438B072AAA835D004CD6C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F5438AD12AAA8271004CD6C2 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F5438B082AAA837B004CD6C2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F5438B042AAA8335004CD6C2 /* Model */,
+				F5438B062AAA8356004CD6C2 /* View */,
+				F5438B072AAA835D004CD6C2 /* Controller */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F5438B092AAA83B2004CD6C2 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				F5438B0C2AAA83D1004CD6C2 /* Model */,
+				F5438B0B2AAA83CB004CD6C2 /* View */,
+				F5438B0A2AAA83C5004CD6C2 /* Controller */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		F5438B0A2AAA83C5004CD6C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F5438AD52AAA8271004CD6C2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F5438B0B2AAA83CB004CD6C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5438B0C2AAA83D1004CD6C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5438B0D2AAA840B004CD6C2 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F5438AD32AAA8271004CD6C2 /* SceneDelegate.swift */,
+				F5438ADD2AAA8272004CD6C2 /* Assets.xcassets */,
+				F5438ADA2AAA8271004CD6C2 /* MVC_N.xcdatamodeld */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
